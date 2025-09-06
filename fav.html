@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Api's World</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+      padding: 15px;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+    header h1 {
+      font-family: 'Dancing Script', cursive;
+      font-size: 2.5rem;
+      color: #fff;
+      margin: 10px 0;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    }
+    header p {
+      color: #fff;
+      font-size: 1rem;
+    }
+    .grid {
+      display: grid;
+      gap: 15px;
+      grid-template-columns: 1fr;
+    }
+    @media(min-width: 700px) {
+      .grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    .card {
+      background: #fff;
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+      text-align: left;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h2 {
+      font-size: 1.5rem;
+      color: #e91e63;
+      margin-bottom: 12px;
+      font-family: 'Dancing Script', cursive;
+      text-align: center;
+    }
+    .card ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .card ul li {
+      font-size: 1rem;
+      margin: 8px 0;
+      padding: 6px 0;
+      border-bottom: 1px solid #f2f2f2;
+    }
+    .btn {
+      display: block;
+      margin: 30px auto 10px;
+      background: #e91e63;
+      color: #fff;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 30px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #c2185b;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>💖 Api's World 💖</h1>
+    <p>A glimpse into Api’s favourites, memories, hobbies & arts ✨</p>
+  </header>
+
+  <div class="grid">
+
+    <div class="card">
+      <h2>About Api</h2>
+      <p> <strong>Name:</strong> Shahida Parveen<br>
+    <em>Shahida</em> ka matlab hai <em>Khoobsoorat</em> aur <em>Parveen</em> ka matlab hai <em>Taroon ka giroh</em>.  
+    Is tarah mera naam ka matlab hai <strong>"Khoobsoorat Taroon ka Giroh"</strong> 🌸
+</p>
+      <p><strong>Height:</strong> 5.4 (as of 2024)</p>
+    </div>
+
+    <div class="card">
+      <h2>💖 My Names 💖</h2>
+      <ul>
+        <li>✨ S P</li>
+        <li>👑 Korean Princes (Mujahida nay diya tha)</li>
+        <li>💻 C S</li>
+        <li>🎀 Madam</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>🎁 Favourites</h2>
+      <ul>
+        <li>🍴 Food: Shawarma</li>
+        <li>🥤 Drink: Meethi Lassi</li>
+        <li>🎬 Actor: Bilal Abbas</li>
+        <li>🌟 Actress: Aiza Khan</li>
+        <li>⚽ Personalities: Ronaldo & Messi</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>🌍 Favourite Country</h2>
+      <ul>
+        <li>🇨🇭 Switzerland</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>👭 Best Friend</h2>
+      <ul>
+        <li>Samreen</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>✨ Hobbies & Interests</h2>
+      <ul>
+        <li>🚴 Cycling</li>
+        <li>🏊 Swimming</li>
+        <li>✈️ Traveling</li>
+        <li>📸 Modeling</li>
+        <li>🙃 Khud ko larka feel kar ke life enjoy karna</li>
+        <li>💬 Gossips</li>
+        <li>😂 Cracking Jokes</li>
+        <li>👗 Dressing</li>
+        <li>🐎 Horse Riding</li>
+        <li>📷 Photography</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>🎨 Artistic Side</h2>
+      <ul>
+        <li>🎨 Painting</li>
+        <li>📄 Paper Crafting</li>
+        <li>💎 Stone Crafting</li>
+      </ul>
+      <p>Art is not just a hobby for Api, it’s her way of expressing her soul and creativity ✨</p>
+    </div>
+
+    <div class="card">
+      <h2>📅 Memorable Days</h2>
+      <ul>
+        <li>🎉 20 August 2018 – 9th class result, first big happiness</li>
+        <li>🏙️ 5 Dec 2021 – Came to Lahore, most msot most special day in Life </li>
+      </ul>
+    </div>
+
+  </div>
+
+  <button class="btn" onclick="window.location.href='index.html'">⬅ Back to Birthday</button>
+
+</body>
+</html>
